@@ -12,7 +12,7 @@ public:
                 if(st.empty()){
                     st.push(i);
                 }
-                maxi= max(maxi,i-st.top()); 
+                else maxi= max(maxi,i-st.top()); 
             }
         }
         return maxi;
